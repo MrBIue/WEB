@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    font-size: 24px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* thanh menu */
+.navbar {
+    background-color: #b81e1e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+.menu li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Container chính */
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #3b9733;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+
+}
+
+
+/* Content */
+.content {
+
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* chân trang */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
