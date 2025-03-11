@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images.jpg" alt="Shop Logo">
+        </div>
+        <h1>Shop Online</h1>
+    </header>
+    <nav class="navbar">
+
+        <ul class="menu">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Sản phẩm</a></li>
+            <li><a href="#">Dịch vụ</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>sidebar</h2>
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </aside>
+
+        <!-- Content -->
+        <main class="content">
+            <h1>Chào mừng bạn đến với Website</h1>
+            <p>Đây là nội dung chính của trang web.</p>
+        </main>
+    </div>
+    <section class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Website của tôi. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><img src="" alt=""></a>
+                <a href="#"><img src="" alt=""></a>
+                <a href="#"><img src="" alt=""></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
