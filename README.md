@@ -1,4 +1,1 @@
-hi
-hi cc
-hello
-lô cocac
+lo cc
