@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Sản Phẩm</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product-card {
+            background: #B3E5FC;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            width: 250px;
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .product-card h2 {
+            font-size: 1.2em;
+            color: #0277BD;
+            margin: 10px 0;
+        }
+        .product-card .price {
+            font-size: 1.5em;
+            color: #D32F2F;
+            margin: 10px 0;
+        }
+    </style>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+        <img src="imagin\logo.webp" alt="Shop Logo">
+    </div>
+    <h1>Shop Thời Trang</h1>
+</header>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <ul class="menu">
+        <li><a href="trang_chu.html">Trang chủ</a></li>
+        <li><a href="san_pham.html">Sản phẩm</a></li>
+        <li><a href="#">Bộ sưu tập</a></li>
+        <li><a href="#">Hàng mới</a></li>
+        <li><a href="#">Khuyến mãi</a></li>
+        <li><a href="#">Liên hệ</a></li>
+    </ul>
+</nav>
+
+    <div class="container">
+        <main class="content">
+            <h2>Danh sách sản phẩm</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="product1.jpg" alt="Sản phẩm 1">
+                    <h2>Áo Thun Nam</h2>
+                    <p class="price">250,000 VND</p>
+                    <button class="btn">Mua ngay</button>
+                </div>
+                <div class="product-card">
+                    <img src="product2.jpg" alt="Sản phẩm 2">
+                    <h2>Quần Jeans</h2>
+                    <p class="price">400,000 VND</p>
+                    <button class="btn">Mua ngay</button>
+                </div>
+                <div class="product-card">
+                    <img src="product3.jpg" alt="Sản phẩm 3">
+                    <h2>Giày Sneakers</h2>
+                    <p class="price">600,000 VND</p>
+                    <button class="btn">Mua ngay</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Shop Thời Trang. All rights reserved.</p>
+    </footer>
+</body>
+</html>
