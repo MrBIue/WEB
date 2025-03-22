@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ Sưu Tập</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .collection-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .collection-card {
+            background: #B3E5FC;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            width: 300px;
+        }
+        .collection-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .collection-card h2 {
+            font-size: 1.4em;
+            color: #0277BD;
+            margin: 10px 0;
+        }
+    </style>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="imagin\logo.webp" alt="Shop Logo">
+        </div>
+        <h1>Shop Thời Trang</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="trang_chu.html">Trang chủ</a></li>
+            <li><a href="san_pham.html">Sản phẩm</a></li>
+            <li><a href="bo_suu_tap.html">Bộ sưu tập</a></li>
+            <li><a href="khuyen_mai.html">Khuyến mãi</a></li>
+            <li><a href="lien_he.html">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="container">
+        <main class="content">
+            <h2>Bộ Sưu Tập Mới Nhất</h2>
+            <div class="collection-container">
+                <div class="collection-card">
+                    <img src="collection1.jpg" alt="Bộ sưu tập 1">
+                    <h2>Phong Cách Hè 2025</h2>
+                </div>
+                <div class="collection-card">
+                    <img src="collection2.jpg" alt="Bộ sưu tập 2">
+                    <h2>Thời Trang Công Sở</h2>
+                </div>
+                <div class="collection-card">
+                    <img src="collection3.jpg" alt="Bộ sưu tập 3">
+                    <h2>Đẳng Cấp Dạ Hội</h2>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Shop Thời Trang. All rights reserved.</p>
+    </footer>
+</body>
+</html>
